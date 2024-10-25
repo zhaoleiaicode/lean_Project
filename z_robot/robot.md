@@ -1,1 +1,4 @@
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+Text that is not a quote
+
+>Text that is not a quote
+
