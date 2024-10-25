@@ -1,13 +1,6 @@
-\`\`\`json  
-// code for coloring  
+\`\`\`diff
+- red
++ green
+! orange
+# gray
 \`\`\`
-\`\`\`html  
-// code for coloring  
-\`\`\`
-\`\`\`js  
-// code for coloring  
-\`\`\`  
-\`\`\`css  
-// code for coloring  
-\`\`\`
-// etc.
