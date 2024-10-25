@@ -1,1 +1,1 @@
-<font color=red>我是红色的字体</font>
+这是蓝色字体：<span style="color:blue">我是蓝色的字体</span>
