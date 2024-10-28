@@ -1,15 +1,15 @@
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
+隔离代码块
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
 ```
 
-</details>
+
+语法突出显示
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
