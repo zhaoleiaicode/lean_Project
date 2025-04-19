@@ -8,7 +8,7 @@ Java 语言并不直接将代码编译成与系统有关的机器码，而是编
 
 但即使编译成字节码文件了，各个系统还是无法明白字节码文件的内容，这时候就需要 Java 虚拟机的帮助了。Java 虚拟机会解析字节码文件的内容，并将其翻译为各操作系统能理解的机器码。
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]()
+![](https://github.com/zlrobot-start/cpp_Project/blob/main/z_jvm/images/%E5%8A%A0%E8%BD%BD%E5%9B%BE.drawio.svg)
 
 在 Java 虚拟机还没出现之前，为了支持软件在不同系统上运行，我们必须在多个平台写多份代码，分别对应特定的系统。但 Java 虚拟机出现之后，你只需要按照特定规范编译书写，编译器编译成字节码文件后，虚拟机会帮你将字节码生成对应的 Windows Code 和 Mac Code。本质上最终还是会生成 Windows Code 和 Mac Code 两份机器代码，但对于开发人员来说，却只需要写一次代码了。Java 虚拟机帮开发人员承担了重复的工作，让开发效率更高了。
 
