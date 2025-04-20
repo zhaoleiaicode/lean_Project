@@ -94,7 +94,7 @@ Test.java Test.class
 
 两种方式的区别在于，前者启动速度快但运行速度慢，而后者启动速度慢但运行速度快。至于为什么会这样，其原因很简单。因为解释器不需要像 JIT 编译器一样，将所有字节码都转化为机器码，自然就少去了优化的时间。而当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。所以在实际情况中，为了运行速度以及效率，我们通常采用两者相结合的方式进行 Java 代码的编译执行。
 
-![](C:\Users\zhaolei\Desktop\jvm\images\JIN编辑器-003.drawio.png)
+![](https://github.com/zlrobot-start/cpp_Project/blob/main/z_jvm/images/JIN%E5%8A%A0%E8%BD%BD%E5%99%A8003.drawio.svg)
 
 在 HotSpot 虚拟机内置了两个即时编译器，分别称为 Client Compiler 和Server Compiler。这两种不同的编译器衍生出两种不同的编译模式，我们分别称之为：C1 编译模式，C2 编译模式。
 
@@ -111,6 +111,7 @@ C1 编译模式会将字节码编译为本地代码，进行简单、可靠的�
 - 编译模式（Compiled Mode）。 此模式优先采用编译，但是无法编译时也会解释执行，使用 `-Xcomp` 打开这种模式。【完全采用即时编译器模式执行程序，如果即时编译出现问题，解释器会介入执行‌】
 
 在命令行中输入 `java -version` 可以看到，我机器上的虚拟机使用 Mixed Mode 运行模式。
+![](https://github.com/zlrobot-start/cpp_Project/blob/main/z_jvm/images/javaversion.png)
 ### 2.3 AOT 编译器：源代码到机器码
 
 Java 中还有一个 AOT 编译器，它能直接将源代码转化为机器码。AOT 编译器的基本思想是：在程序执行前生成 Java 方法的本地代码，以便在程序运行时直接使用本地代码。但是 Java 语言本身的动态特性带来了额外的复杂性，影响了 Java 程序静态编译代码的质量。例如 Java 语言中的动态类加载，因为 AOT 是在程序运行前编译的，所以无法获知这一信息，所以会导致一些问题的产生。类似的问题还有很多。
