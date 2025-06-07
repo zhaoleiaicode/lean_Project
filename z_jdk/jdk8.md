@@ -19,9 +19,7 @@ Oracle 于 2014 发布了 Java8（jdk1.8），诸多原因使它成为目前市�
 ### (1) 什么是lambda？
 
 我们知道，对于一个Java变量，我们可以赋给其一个**“值”**。
-
-![](/home/10313969@zte.intra/Desktop/JDK新特性/JDK-Images/001.drawio.png)
-
+![](https://github.com/zlrobot-start/lean_Project/blob/main/z_jdk/images/jdk8/001.drawio.png)
 如果你想把**“一块代码”**赋给一个Java变量，应该怎么做呢？
 
 比如，我想把右边那块代码，赋给一个叫做aBlockOfCode的Java变量：
