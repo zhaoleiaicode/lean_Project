@@ -1,0 +1,19 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="第 1 页" id="0VJM8Y9uLqQJXhypTLwX">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A81SWbpx83RJlzj_hkqR-1" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;int sValue = 100;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A81SWbpx83RJlzj_hkqR-2" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;String sString = &quot;Hello World!&quot;;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A81SWbpx83RJlzj_hkqR-3" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;Boolean sBoolean = sString.startWith(&quot;H&quot;);&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="600" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

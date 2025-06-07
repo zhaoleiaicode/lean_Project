@@ -1,0 +1,36 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="第 1 页" id="esDLWXQs5c8jtteCNxA4">
+    <mxGraphModel dx="1426" dy="-320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MwL4b-3buNUvDNABAtZR-1" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;sBlockOfCode&lt;/font&gt; =&amp;nbsp;(s) -&amp;gt;&lt;/font&gt;&amp;nbsp;System.out.println(s);&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontColor=default;align=right;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1240" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeWidth=3;" edge="1" parent="1" source="MwL4b-3buNUvDNABAtZR-2" target="MwL4b-3buNUvDNABAtZR-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1370" />
+              <mxPoint x="135" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-2" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;interface MyLambdaInterface{&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;void doSomething(String s)};&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1390" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1245" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-6" value="&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MyLambdaInterface&amp;nbsp;&amp;nbsp;&lt;/span&gt;sBlockOfCode&lt;/font&gt; =&amp;nbsp;(s) -&amp;gt;&lt;/font&gt;&amp;nbsp;System.out.println(s);&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry y="1640" width="770" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="770" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="MwL4b-3buNUvDNABAtZR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.552;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;flowAnimation=1;" edge="1" parent="1" source="MwL4b-3buNUvDNABAtZR-7" target="MwL4b-3buNUvDNABAtZR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
